@@ -22,8 +22,11 @@ _build_ and _run_ shell scripts are provided to compile and run the project.
 ## Overview
 
 This memory allocator system follows the following structure:
+
 ![0aa286bdaf2f927587daa405c342bafa](https://github.com/ginesmoratalla/first-fit-memory-manager/assets/126341997/22ab6d46-052b-4c1d-b24e-432ff0b9b39d)
 
-> [!malloc]
-> allocate memory blocks
+### 1. malloc()
+Request a chunk of memory of desired size (in bytes). will allocate a slightly bigger size for the chunk's metadata
 
+### 2. free()
+Free a 
